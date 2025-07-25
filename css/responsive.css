@@ -11,7 +11,7 @@
 	}
 	.swip-next,
 	.swip-prev {
-		bottom: 34.5%;
+		bottom: 50%;
 	}
 	.swip-prev.prev i,
 	.swip-next.next i {
@@ -151,7 +151,7 @@ Large Screen - Leptop
 	}
 	.swip-next,
 	.swip-prev {
-		bottom: 34.5%;
+		bottom: 51%;
 	}
 	.swip-prev.prev i,
 	.swip-next.next i {
@@ -376,11 +376,11 @@ Xtra Small Screen - Small Mobile
 	}
 	.swip-prev {
 		left: 0;
-		top: 25%;
+		top: 32%;
 	}
 	.swip-next {
 		right: 0px;
-		top: 25%;
+		top: 32%;
 	}
 	.swip-prev.prev i,
 	.swip-next.next i {
