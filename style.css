@@ -229,3 +229,61 @@ HEADER CSS HERE
 .offcanvas-body .desktop-menu ul li:last-child a {
 	display: inline-block;
 }
+
+/*======================
+HERO CSS HERE
+========================*/
+.hero-area {
+	padding-top: 299px;
+	padding-bottom: 298px;
+	background: url(images/hero-area-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-content-card {
+	max-width: 700px;
+}
+
+.hero-content-card h2 {
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: -0.6px;
+	text-transform: uppercase;
+	background: linear-gradient(
+		92deg,
+		#165831 -0.02%,
+		rgba(22, 88, 49, 0.8) 99.98%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 20px;
+}
+
+.hero-content-card p {
+	color: #343434;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 150%;
+	margin-bottom: 60px;
+}
+
+.hero-content-card a {
+	color: #f2f2f2;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: url(images/hero-button-gb.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	display: flex;
+	align-items: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 6px;
+	border-radius: 8px;
+	padding-left: 39.39px;
+	display: inline-block;
+	/* clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%); */
+}
