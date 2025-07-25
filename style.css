@@ -139,10 +139,13 @@ HEADER CSS HERE
 ========================*/
 .header-area {
 	padding: 29px 0;
-	position: sticky;
-	top: 0;
 	background: rgba(255, 255, 255, 0.7);
 	backdrop-filter: blur(30px);
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999999;
 }
 
 .logo-card a img {
@@ -201,6 +204,10 @@ HEADER CSS HERE
 	margin: 8px 0;
 }
 
+#offcanvasRight {
+	z-index: 90000000;
+}
+
 .offcanvas-header a img {
 	width: 200px;
 }
@@ -222,6 +229,7 @@ HEADER CSS HERE
 /*======================
 HERO CSS HERE
 ========================*/
+
 .hero-area {
 	padding-top: 299px;
 	padding-bottom: 298px;
@@ -415,4 +423,16 @@ LOAN PRODUCTS CSS HERE
 	background-size: cover;
 	background-position: right;
 	color: #165831;
+}
+
+/*======================
+WE LEND CSS HERE
+========================*/
+.we-lend-area {
+	padding: 120px 0;
+	background: radial-gradient(
+		55.29% 55.29% at 50% 50%,
+		#499668 0%,
+		#165831 100%
+	);
 }
