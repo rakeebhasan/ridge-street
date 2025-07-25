@@ -102,6 +102,10 @@ Extra Large Screen - Others
 	.project-title-subtitle h3 {
 		font-size: 21.347px;
 	}
+
+	.working-us-area {
+		padding: 100px 0;
+	}
 }
 
 /*========================
@@ -198,6 +202,10 @@ Large Screen - Leptop
 	}
 	.pass-project-swip-next {
 		right: -25px;
+	}
+
+	.working-us-area {
+		padding: 75px 0;
 	}
 }
 
@@ -334,6 +342,13 @@ Medium Screen - Tablate
 	}
 	.pass-project-swip-next {
 		right: -30px;
+	}
+
+	.working-us-area {
+		padding: 60px 0;
+	}
+	.working-us-wrpper .row {
+		row-gap: 25px;
 	}
 }
 
@@ -497,5 +512,16 @@ Xtra Small Screen - Small Mobile
 	.pass-project-swip-next {
 		right: -5px;
 		z-index: 6;
+	}
+
+	.working-us-area {
+		padding: 40px 0;
+	}
+	.working-us-wrpper .row {
+		row-gap: 15px;
+	}
+	.working-us-area .section-title p {
+		font-size: 16px;
+		padding-bottom: 20px;
 	}
 }

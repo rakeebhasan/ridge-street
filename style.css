@@ -861,3 +861,76 @@ PAST PROJECTS CSS HERE
 	font-size: 55px;
 	color: #fff;
 }
+
+/*======================
+WORKING US CSS HERE
+========================*/
+.working-us-area {
+	padding: 120px 0;
+}
+
+.single-working-card {
+	padding: 50px 24px;
+	border-radius: 12px;
+	border: 1px solid #b3bac5;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.single-working-top {
+	flex-grow: 1;
+}
+
+.single-working-card h2 {
+	color: #175730;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 153.082%;
+	margin-bottom: 15px;
+}
+
+.single-working-card p {
+	max-width: 298px;
+	margin: auto;
+	color: #343434;
+	text-align: center;
+	font-size: 18px;
+	line-height: 160%;
+	margin-bottom: 25px;
+}
+
+.single-working-card a {
+	border-radius: 12px;
+	border: 1px solid #175730;
+	background: #fff;
+	padding: 19px 31px;
+	display: inline-flex;
+	align-items: center;
+	gap: 11.65px;
+	color: #175730;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 100%;
+	transition: all 0.4s ease;
+}
+
+.single-working-card a:hover {
+	background: #175730;
+	color: #fff;
+}
+
+.single-working-card a:hover svg path {
+	fill: #fff;
+}
+
+.working-us-area .section-title p {
+	color: #343434;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.24px;
+	padding-bottom: 48px;
+}
