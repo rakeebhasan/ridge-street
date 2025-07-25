@@ -14,8 +14,22 @@
 		bottom: 50%;
 	}
 	.swip-prev.prev i,
-	.swip-next.next i {
+	.swip-next.next i,
+	.pass-project-swip-prev i,
+	.pass-project-swip-next i {
 		color: #165831;
+	}
+
+	.past-projects-area {
+		padding: 80px 0;
+	}
+	.pass-project-swip-prev {
+		left: 16px;
+		z-index: 6;
+	}
+	.pass-project-swip-next {
+		right: 16px;
+		z-index: 6;
 	}
 }
 
@@ -75,6 +89,18 @@ Extra Large Screen - Others
 	.top-content h3 {
 		font-size: 24px;
 		margin-bottom: 10px;
+	}
+
+	.past-projects-area {
+		padding: 60px 0;
+		padding-top: 0;
+	}
+	.cost-info,
+	.project-features {
+		grid-template-columns: 1fr;
+	}
+	.project-title-subtitle h3 {
+		font-size: 21.347px;
 	}
 }
 
@@ -156,6 +182,22 @@ Large Screen - Leptop
 	.swip-prev.prev i,
 	.swip-next.next i {
 		color: #165831;
+	}
+
+	.past-projects-area {
+		padding: 60px 0;
+		padding-top: 0;
+	}
+
+	.project-title-subtitle h3 {
+		font-size: 21.347px;
+	}
+
+	.pass-project-swip-prev {
+		left: -24px;
+	}
+	.pass-project-swip-next {
+		right: -25px;
 	}
 }
 
@@ -259,6 +301,38 @@ Medium Screen - Tablate
 		left: -30px;
 	}
 	.swip-next {
+		right: -30px;
+	}
+
+	.past-projects-area {
+		padding: 60px 0;
+		padding-top: 0;
+	}
+	.past-projects-title h2 {
+		font-size: 42px;
+		margin-bottom: 8px;
+	}
+	.past-projects-title p {
+		font-size: 23px;
+	}
+	.past-projects-wrpper {
+		row-gap: 25px;
+	}
+	.project-title-subtitle h3 {
+		font-size: 19.347px;
+		line-height: 130.903%;
+	}
+	.project-title-subtitle {
+		padding-bottom: 15px;
+	}
+	.cost-info,
+	.project-features {
+		grid-template-columns: 1fr;
+	}
+	.pass-project-swip-prev {
+		left: -30px;
+	}
+	.pass-project-swip-next {
 		right: -30px;
 	}
 }
@@ -383,7 +457,45 @@ Xtra Small Screen - Small Mobile
 		top: 32%;
 	}
 	.swip-prev.prev i,
-	.swip-next.next i {
+	.swip-next.next i,
+	.pass-project-swip-prev i,
+	.pass-project-swip-next i {
 		color: #165831;
+	}
+
+	.past-projects-area {
+		padding: 35px 0;
+		padding-top: 0;
+	}
+	.past-projects-title h2 {
+		font-size: 35px;
+		margin-bottom: 8px;
+		text-align: center;
+	}
+	.past-projects-title p {
+		font-size: 19px;
+		text-align: center;
+	}
+	.past-projects-wrpper {
+		row-gap: 25px;
+	}
+	.project-title-subtitle h3 {
+		font-size: 19.347px;
+		line-height: 130.903%;
+	}
+	.project-title-subtitle {
+		padding-bottom: 15px;
+	}
+	.cost-info,
+	.project-features {
+		grid-template-columns: 1fr;
+	}
+	.pass-project-swip-prev {
+		left: -6px;
+		z-index: 6;
+	}
+	.pass-project-swip-next {
+		right: -5px;
+		z-index: 6;
 	}
 }
