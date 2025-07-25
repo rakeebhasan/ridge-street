@@ -1,3 +1,9 @@
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+	.single-product-card {
+		padding: 35px 30px;
+	}
+}
+
 /*=============================
 Extra Large Screen - Others
 ===============================*/
@@ -23,6 +29,22 @@ Extra Large Screen - Others
 	}
 	.hero-content-card p {
 		padding-right: 100px;
+	}
+
+	.button a {
+		font-size: 16px;
+		padding-left: 22px;
+	}
+	.single-product-card {
+		height: 100%;
+	}
+	.single-product-content {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	.product-features {
+		flex-grow: 1;
 	}
 }
 
@@ -53,6 +75,16 @@ Large Screen - Leptop
 	.hero-content-card a {
 		font-size: 20px;
 		padding-left: 24.39px;
+	}
+
+	.loan-products-area {
+		padding-bottom: 80px;
+	}
+	.products-cards {
+		padding-top: 40px;
+	}
+	.products-cards .row {
+		row-gap: 25px;
 	}
 }
 
@@ -85,6 +117,24 @@ Medium Screen - Tablate
 		font-size: 20px;
 		padding-left: 24.39px;
 	}
+
+	.loan-products-area {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.products-cards {
+		padding-top: 40px;
+	}
+	.products-cards .row {
+		row-gap: 25px;
+	}
+	.single-product-card {
+		padding: 37px 20px;
+	}
+	.button a {
+		font-size: 16px;
+		padding-left: 16px;
+	}
 }
 
 /*===============================
@@ -100,6 +150,9 @@ Xtra Small Screen - Small Mobile
 		padding-bottom: 100px;
 		background-position: left;
 	}
+	.hero-content-card {
+		text-align: center;
+	}
 	.hero-content-card h2 {
 		font-size: 30px;
 		margin-bottom: 10px;
@@ -111,5 +164,26 @@ Xtra Small Screen - Small Mobile
 	.hero-content-card a {
 		font-size: 20px;
 		padding-left: 20.39px;
+	}
+
+	.loan-products-area {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.products-cards {
+		padding-top: 15px;
+	}
+	.products-cards .row {
+		row-gap: 25px;
+	}
+	.single-product-card {
+		padding: 37px 20px;
+	}
+	.button a {
+		font-size: 16px;
+		padding-left: 16px;
+	}
+	.section-title h2 {
+		font-size: 38px;
 	}
 }

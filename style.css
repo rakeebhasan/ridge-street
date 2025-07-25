@@ -32,27 +32,12 @@ ul {
 	margin: 0;
 }
 
-::selection {
-	color: white;
-	background: #ff7675;
-}
-
-::-webkit-selection {
-	color: white;
-	background: #ff7675;
-}
-
-::-moz-selection {
-	color: white;
-	background: #ff7675;
-}
-
 .scrolltotop {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
 	border-radius: 50%;
-	background: #008b8b;
+	background: #949293;
 	text-align: center;
 	font-size: 22px;
 	color: #ffffff;
@@ -86,7 +71,7 @@ ul {
 .pluse,
 .pluse2 {
 	position: relative;
-	top: 13px;
+	top: 11px;
 	left: -8px;
 	z-index: -1;
 }
@@ -101,7 +86,7 @@ ul {
 .pluse::before,
 .pluse2::after,
 .pluse2::before {
-	background: #008b8b;
+	background: #949293;
 	border-radius: 50%;
 	left: 50%;
 	top: 50%;
@@ -154,6 +139,10 @@ HEADER CSS HERE
 ========================*/
 .header-area {
 	padding: 29px 0;
+	position: sticky;
+	top: 0;
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(30px);
 }
 
 .logo-card a img {
@@ -269,7 +258,8 @@ HERO CSS HERE
 	margin-bottom: 60px;
 }
 
-.hero-content-card a {
+.hero-content-card a,
+.button a {
 	color: #f2f2f2;
 	font-size: 24px;
 	font-weight: 600;
@@ -286,4 +276,143 @@ HERO CSS HERE
 	padding-left: 39.39px;
 	display: inline-block;
 	/* clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%); */
+}
+
+/*======================
+LOAN PRODUCTS CSS HERE
+========================*/
+.loan-products-area {
+	padding-top: 80px;
+	padding-bottom: 120px;
+	background: #fefefe;
+}
+
+.section-title h2 {
+	color: #165831;
+	text-align: center;
+	font-size: 56px;
+	font-weight: 800;
+	letter-spacing: 2.24px;
+	text-transform: uppercase;
+}
+
+.products-cards {
+	padding-top: 80px;
+}
+
+.single-product-card {
+	padding: 40px 35px;
+	border-radius: 20px;
+	background: #fff;
+	box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.4);
+	position: relative;
+	overflow: hidden;
+}
+
+.top-style {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.bottom-style {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+}
+
+.icon-card {
+	display: flex;
+	width: 120px;
+	height: 120px;
+	padding: 25px 19.847px 25px 20.153px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	background: #165831;
+	margin: 0 auto;
+}
+
+.card-title {
+	padding: 20px 0;
+	margin-bottom: 0 !important;
+}
+
+.card-title h3 {
+	color: #165831;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.card-title p {
+	color: #165831;
+	text-align: center;
+	font-weight: 500;
+}
+
+.product-features ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+}
+
+.product-features ul li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.product-features ul li span {
+	color: #165831;
+	font-weight: 500;
+}
+
+.product-features ul li a {
+	color: #165831;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.product-features ul li:last-child {
+	margin-top: 8px;
+}
+
+.button {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.button a {
+	font-size: 19px;
+	padding-left: 32px;
+}
+
+.products-cards .col-xxl-4:first-child .single-product-card {
+	background: #165831;
+}
+
+.products-cards .col-xxl-4:first-child .single-product-card .icon-card {
+	background: #ffffff;
+}
+
+.products-cards .col-xxl-4:first-child .single-product-card .card-title h3,
+.products-cards .col-xxl-4:first-child .single-product-card .card-title p,
+.products-cards .col-xxl-4:first-child .single-product-card ul li span,
+.products-cards .col-xxl-4:first-child .single-product-card ul li a {
+	color: #ffffff;
+}
+
+.products-cards .col-xxl-4:first-child .single-product-card ul li svg path {
+	stroke: #fff;
+}
+
+.products-cards .col-xxl-4:first-child .single-product-card .button a {
+	background: url(images/button-white-bg.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	color: #165831;
 }
