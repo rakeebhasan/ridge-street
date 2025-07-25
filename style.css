@@ -582,3 +582,115 @@ WHY CHOOSE CSS HERE
 	letter-spacing: -0.63px;
 	margin-bottom: 0;
 }
+
+/*======================
+CLIENT REVIEWS CSS HERE
+========================*/
+.client-reviews {
+	padding: 80px 0;
+	background: #41d6d6;
+	position: relative;
+	z-index: 3;
+	/* overflow-x: hidden; */
+}
+
+.client-review-wrpper {
+	position: relative;
+	z-index: 33;
+}
+
+.white-bg {
+	background-color: #fff;
+	position: absolute;
+	height: 60%;
+	width: 100%;
+	z-index: 2;
+	left: 0;
+	top: 0;
+}
+
+.green-bg {
+	background: #165831;
+	position: absolute;
+	height: calc(100% - 60%);
+	width: 100%;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+}
+
+.swiper-wrapper {
+	padding-top: 120px;
+}
+
+.single-review-card {
+	padding: 90px 22px 30px;
+	border-radius: 40px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(20px);
+	position: relative;
+}
+
+.client-img {
+	position: absolute;
+	top: -69.5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.client-info {
+	text-align: center;
+}
+
+.client-info h4 {
+	color: #165831;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.client-info p {
+	color: #165831;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.client-say p {
+	color: #343434;
+	font-size: 14px;
+	line-height: 170%;
+}
+
+/* Custom Arrows */
+.slider-row {
+	position: relative;
+}
+
+.swip-next,
+.swip-prev {
+	position: absolute;
+	bottom: 25.5%;
+	transform: translateY(-50%);
+	z-index: 10;
+	color: #000;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.swip-prev.prev i,
+.swip-next.next i {
+	font-size: 55px;
+	color: #fff;
+}
+
+.swip-prev {
+	left: -60px;
+}
+
+.swip-next {
+	right: -60px;
+}

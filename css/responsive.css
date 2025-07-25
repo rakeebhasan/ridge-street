@@ -2,6 +2,21 @@
 	.single-product-card {
 		padding: 35px 30px;
 	}
+
+	.swip-prev {
+		left: 0px;
+	}
+	.swip-next {
+		right: 0px;
+	}
+	.swip-next,
+	.swip-prev {
+		bottom: 34.5%;
+	}
+	.swip-prev.prev i,
+	.swip-next.next i {
+		color: #165831;
+	}
 }
 
 /*=============================
@@ -49,6 +64,7 @@ Extra Large Screen - Others
 
 	.why-choose-area {
 		padding: 90px 0;
+		padding-bottom: 0;
 	}
 	.choose-items {
 		padding: 50px 0;
@@ -107,6 +123,7 @@ Large Screen - Leptop
 
 	.why-choose-area {
 		padding: 70px 0;
+		padding-bottom: 0;
 	}
 	.choose-items {
 		padding: 30px 0;
@@ -118,6 +135,27 @@ Large Screen - Leptop
 	.top-content h3 {
 		font-size: 24px;
 		margin-bottom: 10px;
+	}
+
+	.section-title h2 {
+		font-size: 43px;
+	}
+	.swiper-wrapper {
+		padding-top: 100px;
+	}
+	.swip-prev {
+		left: 0px;
+	}
+	.swip-next {
+		right: 0px;
+	}
+	.swip-next,
+	.swip-prev {
+		bottom: 34.5%;
+	}
+	.swip-prev.prev i,
+	.swip-next.next i {
+		color: #165831;
 	}
 }
 
@@ -213,6 +251,16 @@ Medium Screen - Tablate
 		font-size: 24px;
 		margin-bottom: 10px;
 	}
+
+	.swiper-wrapper {
+		padding-top: 90px;
+	}
+	.swip-prev {
+		left: -30px;
+	}
+	.swip-next {
+		right: -30px;
+	}
 }
 
 /*===============================
@@ -306,6 +354,7 @@ Xtra Small Screen - Small Mobile
 
 	.why-choose-area {
 		padding: 40px 0;
+		padding-bottom: 0;
 	}
 	.choose-items {
 		padding: 20px 0;
@@ -317,5 +366,24 @@ Xtra Small Screen - Small Mobile
 	.top-content h3 {
 		font-size: 24px;
 		margin-bottom: 10px;
+	}
+
+	.client-reviews {
+		padding: 50px 0;
+	}
+	.swiper-wrapper {
+		padding-top: 84px;
+	}
+	.swip-prev {
+		left: 0;
+		top: 25%;
+	}
+	.swip-next {
+		right: 0px;
+		top: 25%;
+	}
+	.swip-prev.prev i,
+	.swip-next.next i {
+		color: #165831;
 	}
 }
