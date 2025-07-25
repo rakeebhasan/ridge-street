@@ -436,3 +436,109 @@ WE LEND CSS HERE
 		#165831 100%
 	);
 }
+
+.we-lean-title h2 {
+	color: #fff;
+	font-size: 56px;
+	font-weight: 800;
+	letter-spacing: 2.24px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	text-align: left;
+}
+
+.we-lean-title p {
+	color: #fff;
+	font-size: 24px;
+	line-height: 90%;
+	letter-spacing: 0.24px;
+}
+
+.we-lean-title p b {
+	font-size: 32px;
+}
+
+.map-card {
+	max-width: 1170px;
+	margin: auto;
+	padding: 80px 0;
+}
+
+.map-card img {
+	width: 100%;
+	display: block;
+}
+
+.location-card {
+	max-width: 1080px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 200px;
+}
+
+.Texas-card {
+	position: relative;
+}
+
+.Texas-card img {
+	width: 100%;
+}
+
+.location-card-desc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+}
+
+.location-card-desc h3 {
+	color: #fff;
+	font-size: 56px;
+	font-weight: 800;
+	letter-spacing: 2.24px;
+	margin-bottom: 10px;
+}
+
+.location-card-desc p {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 0.24px;
+}
+
+.location-card-desc a {
+	padding: 20px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 170%;
+	text-transform: uppercase;
+	border-radius: 80px;
+	border: 2px solid #fff;
+}
+
+.view-all-collection-btn {
+	text-align: center;
+	padding-top: 80px;
+}
+
+.view-all-collection-btn a {
+	background: url(images/button-white-bg.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	color: #175730;
+	font-size: 24px;
+	font-weight: 600;
+	padding-left: 38px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+	text-transform: uppercase;
+}

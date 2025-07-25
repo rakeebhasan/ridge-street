@@ -86,6 +86,10 @@ Large Screen - Leptop
 	.products-cards .row {
 		row-gap: 25px;
 	}
+
+	.location-card {
+		column-gap: 48px;
+	}
 }
 
 /*=========================
@@ -134,6 +138,36 @@ Medium Screen - Tablate
 	.button a {
 		font-size: 16px;
 		padding-left: 16px;
+	}
+
+	.we-lend-area {
+		padding: 70px 0;
+	}
+	.we-lean-title {
+		text-align: center;
+	}
+	.we-lean-title h2 {
+		text-align: center;
+	}
+	.we-lean-title p {
+		font-size: 20px;
+	}
+	.we-lean-title p b {
+		font-size: 26px;
+	}
+	.map-card {
+		padding: 30px 0;
+		padding-bottom: 50px;
+	}
+	.location-card {
+		column-gap: 50px;
+	}
+	.location-card-desc {
+		padding: 0 20px;
+		text-align: center;
+	}
+	.view-all-collection-btn {
+		padding-top: 60px;
 	}
 }
 
@@ -185,5 +219,44 @@ Xtra Small Screen - Small Mobile
 	}
 	.section-title h2 {
 		font-size: 38px;
+	}
+
+	.we-lend-area {
+		padding: 40px 0;
+	}
+	.we-lean-title {
+		text-align: center;
+	}
+	.we-lean-title h2 {
+		text-align: center;
+		font-size: 35px;
+	}
+	.we-lean-title p {
+		font-size: 20px;
+		line-height: 135%;
+	}
+	.we-lean-title p b {
+		font-size: 23px;
+	}
+	.map-card {
+		padding: 30px 0;
+		padding-bottom: 50px;
+	}
+	.location-card {
+		column-gap: 50px;
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 20px;
+	}
+	.location-card-desc {
+		padding: 0 20px;
+		text-align: center;
+	}
+	.view-all-collection-btn {
+		padding-top: 40px;
+	}
+	.view-all-collection-btn a {
+		font-size: 20px;
+		padding-left: 17px;
+		border-radius: 8px;
 	}
 }
