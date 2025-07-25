@@ -36,7 +36,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<!-- Logo Card -->
-					<div class="col-6 col-xl-2 col-xxl-3">
+					<div class="col-8 col-xl-2 col-xxl-3">
 						<div class="logo-card">
 							<a href="index.html">
 								<img src="images/RidgeStreet.png" alt="" />
@@ -44,7 +44,7 @@
 						</div>
 					</div>
 					<!-- Menu Card -->
-					<div class="col-6 col-xl-10 col-xxl-9">
+					<div class="col-4 col-xl-10 col-xxl-9">
 						<div class="menu-card">
 							<!-- Large Screen Menu -->
 							<nav class="desktop-menu">
@@ -61,7 +61,12 @@
 							</nav>
 							<!-- Small Screen Menu Icon -->
 							<div class="humbarger-icon d-flex d-xl-none">
-								<div class="icon-line">
+								<div
+									class="icon-line"
+									data-bs-toggle="offcanvas"
+									data-bs-target="#offcanvasRight"
+									aria-controls="offcanvasRight"
+								>
 									<span class="line"></span>
 									<span class="line"></span>
 									<span class="line"></span>
@@ -69,6 +74,37 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div
+				class="offcanvas offcanvas-end"
+				tabindex="-1"
+				id="offcanvasRight"
+				aria-labelledby="offcanvasRightLabel"
+			>
+				<div class="offcanvas-header">
+					<a href="index.html">
+						<img src="images/RidgeStreet.png" alt="" />
+					</a>
+					<button
+						type="button"
+						class="btn-close text-reset"
+						data-bs-dismiss="offcanvas"
+						aria-label="Close"
+					></button>
+				</div>
+				<div class="offcanvas-body">
+					<nav class="desktop-menu">
+						<ul>
+							<li><a href="#">Fix and Flip</a></li>
+							<li><a href="#">Rental Loans</a></li>
+							<li><a href="#">Where We Lend</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Resources</a></li>
+							<li><a href="#">Get Approved Online</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</header>

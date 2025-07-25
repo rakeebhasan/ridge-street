@@ -211,3 +211,21 @@ HEADER CSS HERE
 .humbarger-icon .line:nth-child(2) {
 	margin: 8px 0;
 }
+
+.offcanvas-header a img {
+	width: 200px;
+}
+
+.btn-close:focus {
+	box-shadow: none;
+}
+
+.offcanvas-body .desktop-menu ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.offcanvas-body .desktop-menu ul li:last-child a {
+	display: inline-block;
+}
