@@ -46,6 +46,20 @@ Extra Large Screen - Others
 	.product-features {
 		flex-grow: 1;
 	}
+
+	.why-choose-area {
+		padding: 90px 0;
+	}
+	.choose-items {
+		padding: 50px 0;
+	}
+	.top-content {
+		padding: 25px 25px 35px 25px;
+	}
+	.top-content h3 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
 }
 
 /*========================
@@ -89,6 +103,21 @@ Large Screen - Leptop
 
 	.location-card {
 		column-gap: 48px;
+	}
+
+	.why-choose-area {
+		padding: 70px 0;
+	}
+	.choose-items {
+		padding: 30px 0;
+		row-gap: 25px;
+	}
+	.top-content {
+		padding: 25px 25px 35px 25px;
+	}
+	.top-content h3 {
+		font-size: 24px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -169,6 +198,21 @@ Medium Screen - Tablate
 	.view-all-collection-btn {
 		padding-top: 60px;
 	}
+
+	.why-choose-area {
+		padding: 70px 0;
+	}
+	.choose-items {
+		padding: 30px 0;
+		row-gap: 25px;
+	}
+	.top-content {
+		padding: 25px 25px 35px 25px;
+	}
+	.top-content h3 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
 }
 
 /*===============================
@@ -218,7 +262,7 @@ Xtra Small Screen - Small Mobile
 		padding-left: 16px;
 	}
 	.section-title h2 {
-		font-size: 38px;
+		font-size: 30px;
 	}
 
 	.we-lend-area {
@@ -258,5 +302,20 @@ Xtra Small Screen - Small Mobile
 		font-size: 20px;
 		padding-left: 17px;
 		border-radius: 8px;
+	}
+
+	.why-choose-area {
+		padding: 40px 0;
+	}
+	.choose-items {
+		padding: 20px 0;
+		row-gap: 15px;
+	}
+	.top-content {
+		padding: 25px 25px 35px 25px;
+	}
+	.top-content h3 {
+		font-size: 24px;
+		margin-bottom: 10px;
 	}
 }
