@@ -106,6 +106,18 @@ Extra Large Screen - Others
 	.working-us-area {
 		padding: 100px 0;
 	}
+
+	.resources-wrpper {
+		padding-top: 50px;
+	}
+	.resouce-desc h3 {
+		font-size: 22px;
+		margin-top: 13.5px;
+		margin-bottom: 6.5px;
+	}
+	.single-resource-card {
+		padding: 20px 20px 48px 20px;
+	}
 }
 
 /*========================
@@ -206,6 +218,22 @@ Large Screen - Leptop
 
 	.working-us-area {
 		padding: 75px 0;
+	}
+
+	.resources-wrpper {
+		padding-top: 50px;
+		gap: 40px;
+	}
+	.resources-title h2 {
+		font-size: 45px;
+	}
+	.resouce-desc h3 {
+		font-size: 22px;
+		margin-top: 13.5px;
+		margin-bottom: 6.5px;
+	}
+	.single-resource-card {
+		padding: 20px 20px 48px 20px;
 	}
 }
 
@@ -348,6 +376,26 @@ Medium Screen - Tablate
 		padding: 60px 0;
 	}
 	.working-us-wrpper .row {
+		row-gap: 25px;
+	}
+
+	.resources-wrpper {
+		padding-top: 30px;
+		gap: 30px;
+		padding-bottom: 50px;
+	}
+	.resources-title h2 {
+		font-size: 36px;
+	}
+	.resouce-desc h3 {
+		font-size: 22px;
+		margin-top: 13.5px;
+		margin-bottom: 6.5px;
+	}
+	.single-resource-card {
+		padding: 20px 20px 48px 20px;
+	}
+	.resources-row.row {
 		row-gap: 25px;
 	}
 }
@@ -523,5 +571,31 @@ Xtra Small Screen - Small Mobile
 	.working-us-area .section-title p {
 		font-size: 16px;
 		padding-bottom: 20px;
+	}
+
+	.resources-wrpper {
+		padding-top: 30px;
+		gap: 30px;
+		padding-bottom: 30px;
+	}
+	.resources-title {
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+	.resources-title h2 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.resouce-desc h3 {
+		font-size: 22px;
+		margin-top: 13.5px;
+		margin-bottom: 6.5px;
+	}
+	.single-resource-card {
+		padding: 20px 20px 48px 20px;
+	}
+	.resources-row.row {
+		row-gap: 25px;
 	}
 }

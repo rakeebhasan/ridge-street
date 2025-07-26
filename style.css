@@ -142,11 +142,11 @@ HEADER CSS HERE
 	padding: 29px 0;
 	background: rgba(255, 255, 255, 0.7);
 	backdrop-filter: blur(30px);
-	position: sticky;
+	/* position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 999999;
+	z-index: 999999; */
 }
 
 .logo-card a img {
@@ -975,6 +975,10 @@ RESOURCES CSS HERE
 	border-radius: 20px;
 	background: #fff;
 	box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.12);
+}
+
+.resourse-banner img {
+	width: 100%;
 }
 
 .resouce-desc {
