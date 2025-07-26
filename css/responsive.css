@@ -250,6 +250,10 @@ Large Screen - Leptop
 		font-size: 20px;
 		margin: 0px 0;
 	}
+
+	.footer-wrpper .row {
+		row-gap: 25px;
+	}
 }
 
 /*=========================
@@ -424,6 +428,10 @@ Medium Screen - Tablate
 		font-size: 20px;
 		margin: 0px 0;
 	}
+
+	.footer-wrpper .row {
+		row-gap: 25px;
+	}
 }
 
 /*===============================
@@ -517,7 +525,7 @@ Xtra Small Screen - Small Mobile
 
 	.why-choose-area {
 		padding: 40px 0;
-		padding-bottom: 0;
+		padding-bottom: 40px;
 	}
 	.choose-items {
 		padding: 20px 0;
@@ -639,5 +647,9 @@ Xtra Small Screen - Small Mobile
 	}
 	.get-started-content .button {
 		text-align: center;
+	}
+
+	.footer-wrpper .row {
+		row-gap: 25px;
 	}
 }

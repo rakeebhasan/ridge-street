@@ -14,8 +14,11 @@ body {
 	color: #333333;
 }
 
-*,
-p {
+section {
+	overflow-x: hidden;
+}
+
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -142,11 +145,11 @@ HEADER CSS HERE
 	padding: 29px 0;
 	background: rgba(255, 255, 255, 0.7);
 	backdrop-filter: blur(30px);
-	/* position: sticky;
+	position: sticky !important;
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 999999; */
+	z-index: 999999;
 }
 
 .logo-card a img {
@@ -162,6 +165,32 @@ HEADER CSS HERE
 	color: #212121;
 	font-size: 20px;
 	font-weight: 500;
+	position: relative;
+}
+
+.desktop-menu ul li a::after {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 3px;
+	background: #000;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	transition: all 0.4s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.desktop-menu ul li a:hover::after {
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 1;
+	visibility: visible;
+}
+
+.desktop-menu ul li:last-child a::after {
+	display: none;
 }
 
 .desktop-menu ul li:last-child a {
@@ -1041,4 +1070,44 @@ GET STARTED CSS HERE
 
 .get-started-content .button {
 	text-align: left;
+}
+
+/*======================
+FOOTER CSS HERE
+========================*/
+.footer-area {
+	padding: 40px 0;
+	background: #165831;
+}
+
+.footer-single-card h3,
+.footer-single-card h4 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 137.5%;
+	margin-bottom: 12px;
+}
+
+.footer-single-card h4 {
+	margin-top: 12px;
+}
+
+.footer-single-card ul li,
+.footer-single-card ul li a {
+	color: #fff;
+	font-size: 20px;
+	line-height: 168.125%;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.contact-info li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
 }
