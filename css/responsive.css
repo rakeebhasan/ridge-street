@@ -118,6 +118,10 @@ Extra Large Screen - Others
 	.single-resource-card {
 		padding: 20px 20px 48px 20px;
 	}
+
+	.get-started-area {
+		padding: 68px 0;
+	}
 }
 
 /*========================
@@ -234,6 +238,17 @@ Large Screen - Leptop
 	}
 	.single-resource-card {
 		padding: 20px 20px 48px 20px;
+	}
+
+	.get-started-area {
+		padding: 80px 0;
+	}
+	.get-started-content h2 {
+		font-size: 45px;
+	}
+	.get-started-content p {
+		font-size: 20px;
+		margin: 0px 0;
 	}
 }
 
@@ -397,6 +412,17 @@ Medium Screen - Tablate
 	}
 	.resources-row.row {
 		row-gap: 25px;
+	}
+
+	.get-started-area {
+		padding: 80px 0;
+	}
+	.get-started-content h2 {
+		font-size: 45px;
+	}
+	.get-started-content p {
+		font-size: 20px;
+		margin: 0px 0;
 	}
 }
 
@@ -597,5 +623,21 @@ Xtra Small Screen - Small Mobile
 	}
 	.resources-row.row {
 		row-gap: 25px;
+	}
+
+	.get-started-area {
+		padding: 40px 0;
+	}
+	.get-started-content h2 {
+		font-size: 35px;
+		text-align: center;
+	}
+	.get-started-content p {
+		font-size: 17px;
+		margin: 0px 0;
+		text-align: center;
+	}
+	.get-started-content .button {
+		text-align: center;
 	}
 }
