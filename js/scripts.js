@@ -14,5 +14,7 @@
 				jQuery(".scrolltotop").fadeOut();
 			}
 		});
+
+		new WOW().init();
 	});
 })(jQuery);
